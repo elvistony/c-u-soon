@@ -18,6 +18,11 @@ body,h1 {font-family: 'Montserrat', sans-serif;
 h1 {letter-spacing: 6px}
 .w3-row-padding img {margin-bottom: 12px}
 
+
+.mons{
+  font-family: 'Montserrat', sans-serif;
+}
+
 .lucky{
   font-family: 'Luckiest Guy', cursive;
 }
@@ -29,13 +34,14 @@ h1 {letter-spacing: 6px}
 .navs{
   border-radius: 20px 20px 0px 20px;
   padding: 10px 25px !important;
+  border: 1px solid white !important;
 }
 
 
 .navs:hover{
   background:rgb(0, 0, 161) !important;
   color: white !important;
-  border: none !important;
+  border: 1px solid black !important;
 }
 
 .c-u-soon{

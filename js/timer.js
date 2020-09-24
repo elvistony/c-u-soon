@@ -1,4 +1,4 @@
-var countDownDate = new Date("Sept 26, 2020 18:00:00").getTime();
+var countDownDate = new Date("Oct 10, 2020 18:00:00").getTime();
 var x = setInterval(function() {
   var now = new Date().getTime();
   var distance = countDownDate - now;
@@ -8,14 +8,18 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   document.getElementById("soon").innerHTML = days 
-  + "<span class='w3-small'> DAYS</span> " + hours 
-  + "<span class='w3-small'> HOURS</span> "+ minutes 
-  + "<span class='w3-small'> MINUTES</span>" + seconds 
-  + "<span class='w3-small'> SECONDS</span>";
+  + "<span class='w3-small'> DAYS </span> " + hours 
+  + "<span class='w3-small'> HOURS </span> "+ minutes 
+  + "<span class='w3-small'> MINUTES </span>" + seconds 
+  + "<span class='w3-small'> SECONDS </span>";
 
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("soon").outerHTML = "";
+    document.getElementById('caption').innerText="VIRTUAL EVENT IS NOW LIVE";
+    document.getElementById("soon").innerHTML = `
+    <a target="_blank" style="font-weight: bold;" href="https://meet.google.com" class="mons w3-small w3-button w3-round-large w3-orange w3-large w3-hover-yellow "> Join The Live Event! <br>       <img src="https://elvistony.github.io/c-u-soon/img/google.png" alt="" class="w3-image" width="15%">
+    </a>
+    `;
   }
 }, 1000);
