@@ -39,7 +39,7 @@ h1 {letter-spacing: 6px}
 
 
 .navs:hover{
-  background:rgb(0, 0, 161) !important;
+  background:rgb(255, 174, 0) !important;
   color: white !important;
   border: 1px solid black !important;
 }

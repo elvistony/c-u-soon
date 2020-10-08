@@ -1,4 +1,4 @@
-var countDownDate = new Date("Oct 11, 2020 09:00:00").getTime();
+var countDownDate = new Date("Oct 17, 2020 09:00:00").getTime();
 var x = setInterval(function() {
   var now = new Date().getTime();
   var distance = countDownDate - now;
@@ -18,7 +18,7 @@ var x = setInterval(function() {
     clearInterval(x);
     document.getElementById('caption').innerText="VIRTUAL EVENT IS NOW LIVE";
     document.getElementById("soon").innerHTML = `
-    <a target="_blank" style="font-weight: bold;" href="https://meet.google.com" class="mons w3-small w3-button w3-round-large w3-orange w3-large w3-hover-yellow "> Join The Live Event! <br>       <img src="https://elvistony.github.io/c-u-soon/img/google.png" alt="" class="w3-image" width="15%">
+    <a target="_blank" style="font-weight: bold;" href="https://elvistony.github.io/c-u-soon/live" class="mons w3-small w3-button w3-round-large w3-orange w3-large w3-hover-yellow "> Join The Live Event! <br>       <img src="https://elvistony.github.io/c-u-soon/img/google.png" alt="" class="w3-image" width="15%">
     </a>
     `;
   }
