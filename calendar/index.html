@@ -4,11 +4,12 @@
 <title>c u soon</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Virtual Farewell premieres on 26th Sept 2020">
+<meta name="description" content="CSE Virtual Farewell premieres on 17th Oct 2020">
 <meta name="theme-color" content="#000000" />
 <link rel="stylesheet" href="../css/w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="shortcut icon" href="../favicon.png" type="image/x-icon">
 <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat&family=Pacifico&display=swap" rel="stylesheet"><link rel="stylesheet" href="../css/style.css">
 <body class="w3-black bgimg-1">
 <div class="w3-content" style="max-width:1500px">
@@ -32,17 +33,24 @@
   <div class="w3-padding-32 w3-block w3-black">
     <div class="w3-bar ">
       <a href="../" class="w3-bar-item navs w3-left w3-border w3-margin w3-button w3-button">Home</a>
-      <!-- <a href="../gallery" class="w3-bar-item w3-button">Gallery</a> -->
-      <a href="#" class="w3-bar-item navs  w3-right w3-margin w3-button w3-white w3-button">Polls</a>
+      <a href="#" class="w3-bar-item navs  w3-margin w3-button w3-white w3-button">Polls</a>
+ <!-- <a href="../live/" class="w3-bar-item navs  w3-right w3-margin w3-button w3-button">Live</a> -->
+
     </div>
   </div>
 </header>
 
 
 <div class="w3-row-padding w3-center" style="margin-bottom:64px">
-  <div class="w3-center w3-hover-opacity-off" style="font-size: xxx-large;margin-bottom: 64px;padding: 10px 20px 10px 20px;">
-    <h4 style="font-size: 1em;" class="pacifico w3-text-red">Invite</h4>
-    <iframe src="invite.html" style="width: -webkit-fill-available;height: 1370px;" frameborder="0"></iframe>
+  <div class="w3-center w3-hover-opacity-off" style="margin-bottom: 64px;padding: 10px 20px 10px 20px;">
+    <a id="glink" class="w3-button w3-blue w3-hover-orange mons" href="https://www.google.com/calendar/render?action=TEMPLATE&text=CSE+Farewell+2020&details=CSE+Farewell+-+2020+-+VAST+-+17th+Oct+2020&location=Your+Home&dates=20201017T123000Z%2F20201017T140000Z"> Click to Add the Event </a>
+    <p>or you'll be redirected automatically in 5 seconds</p>
+    <script>
+        setTimeout(()=>{
+            var link = document.getElementById('glink').getAttribute('href');
+            location.replace(link)},5000)
+        </script>
+  </div>
 </div>
   
 <!-- End Page Content -->
