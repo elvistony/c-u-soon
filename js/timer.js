@@ -16,9 +16,9 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById('caption').innerText="VIRTUAL EVENT IS LIVE";
+    document.getElementById('caption').innerText="THE EVENT STREAMED ON 17th OCT 2020";
     document.getElementById("soon").innerHTML = `
-    <a target="_blank" style="font-weight: bold;" href="https://elvistony.github.io/c-u-soon/live" class="mons w3-small w3-button w3-round-large w3-orange w3-large w3-hover-red "> Join The Live Event! <br>       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/337px-YouTube_Logo_2017.svg.png" alt="" class="w3-image" width="15%">
+    <a target="_blank" style="font-weight: bold;" href="https://elvistony.github.io/c-u-soon/live" class="mons w3-small w3-button w3-round-large w3-orange w3-large w3-hover-red "> Watch the Streamed Event! <br>       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/337px-YouTube_Logo_2017.svg.png" alt="" class="w3-image" width="15%">
     </a>
     `;
   }
